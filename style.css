@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  body {
+    width:100%;
+    font:0.75em Montserrat,Noto Sans KR,sans-serif  
+  }
+
+  #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border-bottom: 3px solid #6b24a1;
+    font-size: 0;
+    background: #fff;
+  }
+
+  #header .left img{
+    width: 70px;
+    padding: 30px;
+    cursor: pointer;
+  }
+
+  #header .center{
+    font-size: 80px;
+    padding: 10px;
+    padding-left: 50px;
+  }
+
+  #header .right{
+   display: flex;
+  }
+
+  #header .right .search-box{
+    margin-top: 60px;
+    margin-right: 10px;
+    width: 400px;
+    background: white;
+    padding: 10px;
+  }
+
+  #header .right .search-box input{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    width: 250px;
+    cursor: alias;
+  }
+
+  #header .right .search-box button{
+    color: #af1cc5;
+    float: left;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  #header .right .box{
+    height: 100%;
+    align-items: right;
+    
+  }
+
+  #header .right .box .b-t{
+    width: 30px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #header .right .box .b-t img{
+    width: 80px;
+    height: 100%;
+    padding: auto;
+    margin-left: 40%;
+    margin-top: 48%;
+  }
+
+  #header .right .box .sign{
+    position:fixed;
+    top: 130px;
+    right: 0;
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background: #6b24a1;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  #header .right .box:hover .sign{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #header .right .box .sign a{
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 0 0 20px;
+    color: #ffffff;
+  }
+
+  #block{
+    size: 100%;
+    color: aquamarine;
+    width: 70px;
+    height: 70px;
+  }
+
+  #block h1{
+    font-size: larger;
+    color: #af1cc5;
+  }
+
+  #block .re1{
+    size: 50px;
+  }
+
+ 
+
+
+
+
+
+
+  

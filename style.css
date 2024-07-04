@@ -60,13 +60,15 @@ div[class="sidebar"]{
 div[class="sidebar"] h2{
     margin-top: 0;
     padding-left: 40px;
-    color:#6b24a1;
+    padding-bottom: 20px;
+    color:#482070;
     font-size: 30px;
     font-weight:bold;
 }
 div[class="sidebar"] ul{
     list-style: none;
     padding: 10;
+    font-size: 20px;
 }
 div[class="sidebar"] ul li{
     margin: 15px 0;

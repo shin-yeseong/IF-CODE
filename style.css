@@ -1,10 +1,10 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
   }
 
   body {
-    width:100%;
     font:0.75em Montserrat,Noto Sans KR,sans-serif  
   }
 
@@ -15,25 +15,31 @@
     width: 100%;
     box-sizing: border-box;
     padding: 0px;
-    width: 100%;
     display: flex;
     justify-content:space-around;
     align-items:center;
-    border-bottom: 3px solid #6b24a1;
+    border-bottom: 2px solid #ab90bf;
     font-size: 0;
     background: #fff;
   }
 
   #header .left img{
-    width: 70px;
-    padding: 30px;
+    margin: 20px 0 0 30px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #9001fe);
+    width: 60px;
+    height: 50px;
+    opacity: 1;
     cursor: pointer;
   }
 
   #header .center{
+    color:hsl(274, 82%, 15%);
     font-size: 80px;
+    font-weight: 20px;
+    letter-spacing: 5px;
     padding: 10px;
     padding-left: 50px;
+    text-shadow: 2px 2px 2px gray;
   }
 
   #header .right{
@@ -62,7 +68,7 @@
   }
 
   #header .right .search-box button{
-    color: #af1cc5;
+    color: #ab90bf;
     float: left;
     margin-left: 15px;
     border-radius: 50%;
@@ -94,6 +100,8 @@
     padding: auto;
     margin-left: 40%;
     margin-top: 48%;
+    color: #ab90bf;
+    background: #ab90bf;
   }
 
   #header .right .box .sign{
@@ -104,7 +112,7 @@
     box-sizing: border-box;
     text-align: center;
     padding: 10px;
-    background: #6b24a1;
+    background: #ab90bf;
     transition: all 0.3s;
     opacity: 0;
     visibility: hidden;
@@ -123,21 +131,41 @@
     color: #ffffff;
   }
 
+  #block-title{
+    margin-top: 160px;
+    margin-left: 60px;
+    border-bottom: 2px solid #874cb3;
+    width: 20%;
+    font-size: 30px;
+    color: #000000;
+    font-style: italic;
+  }
+
   #block{
-    size: 100%;
-    color: aquamarine;
-    width: 70px;
-    height: 70px;
+    display: flex;
+    box-sizing: border-box;
   }
 
-  #block h1{
-    font-size: larger;
-    color: #af1cc5;
+  #block .box{
+    margin: 20px 0 60px 60px;
+    background: linear-gradient(#6b24a1, #c7a4e1) ;
+    opacity: 0.6;
+    border-radius: 30px ;
+    width: 28%;
+    height: 400px;
+    cursor: pointer;
   }
 
-  #block .re1{
-    size: 50px;
+  #block .box p1{
+  font-size: 30px;
+  margin: 30px;
   }
+
+  #block .box:hover{
+
+  }
+
+  
 
  
 

@@ -1,7 +1,6 @@
 *{
   margin:0px;
   padding:0px;
-  
 }
 
 body {
@@ -142,8 +141,12 @@ body {
 
 #intro{
   background: #eee0f9;
+  background-image: url(img/if-code-main.png);
+  background-size: cover;
+
   height: 650px;
 }
+
 
 .box-title{
   background: #ffffff;

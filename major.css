@@ -1,0 +1,140 @@
+#Main-top{
+    background: #eee0f9;
+    background-image: url(img/if-code-main.png);
+    background-size: cover;
+    height: 200px;
+}
+
+#Main{
+    margin-top: 10%;
+    background-color: white;
+    padding: 0 60px 0 60px;
+}
+
+#Main .Major-title{
+    background-color: white;
+    font-size: 50px;
+    font-weight: bold;
+    color: #482070;
+    border-left: 5px solid #482070 ;
+    padding-left: 1%;
+}
+
+#Main .Major-intro{
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ab90bf;
+    margin: 15% 5% 5% 5%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 20px;
+}
+
+#Main .Major-intro img{
+    width: 20px;
+    height: 20px;
+}
+
+#Main .intro-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ab90bf;
+    margin-left: 20px;
+    height: 200px;
+}
+
+#Main .Major-content{
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin: 15% 0 20% 0;
+}
+
+#Main .Major-content a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#Main .Major-content a:hover{
+    color: gray;
+}
+
+.document{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+
+.document img{
+    width: 20px;
+    height: 20px;
+}
+
+.doc-text{
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 20px;
+    color: gray;
+}
+
+#Main .Major-B{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    border-top: 3px solid #ab90bf;
+}
+
+#Main .Major-C{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    border-top: 3px solid #ab90bf;
+}
+
+#Main .Major-C .document .doc-text img{
+    width: 100%;
+    height: 500px;
+}
+
+#Main .Major-C a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #eee0f9;
+}
+
+#Main .Major-G{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    border-top: 3px solid #ab90bf;
+}
+
+#Main .Major-G .G-img{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 2% 0 1% 0;
+}
+
+#Main .Major-S{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10%;
+    border-top: 3px solid #ab90bf;
+}
+
+#Main .Major-S .document .S-img{
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    margin: 2% 0 1% 0;
+}

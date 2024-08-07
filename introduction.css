@@ -1,0 +1,86 @@
+#Main-top{
+    background-color: white;
+    background-size: cover;
+    height: 50px;
+}
+
+#Main{
+    margin-top: 10%;
+    background-color: white;
+    padding: 0 60px 0 60px;
+}
+
+/* Introduciton 제목*/
+#Main .Intro-title{
+    background-color: white;
+    font-size: 50px;
+    font-weight: bold;
+    color: #482070;
+    border-left: 5px solid #482070;
+    padding-left: 1%;
+}
+
+/*목차*/
+#Main .Intro-content{
+    background-color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin: 3% 0 0% 0;
+}
+#Main .Intro-content a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+}
+#Main .Intro-content a:hover{
+    color: #482070;
+}
+
+/*내용*/
+#Main .Intro-contentline{
+    background-color: white;
+    margin-top: 10%;
+    border-top: 3px solid #ab90bf;
+}
+.document{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+.doc-text1{
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style:italic;
+    margin-left: 20px;
+    margin: 3% 0 0 1%;
+    color: #482070;
+}
+.doc-text2{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 3%;
+    color: black;
+}
+.doc-text3{
+    background-color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 3%;
+    color: black;
+}
+.doc-box{
+    background-color: #f8edfd;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin: 5% 5% 5% 5%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 20px;
+}

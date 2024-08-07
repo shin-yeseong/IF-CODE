@@ -1,8 +1,8 @@
+/* 위에 사진*/
 #Main-top{
-    background: #eee0f9;
-    background-image: url(img/if-code-main.png);
+    background-color: white;
     background-size: cover;
-    height: 200px;
+    height: 50px;
 }
 
 #Main{
@@ -10,7 +10,7 @@
     background-color: white;
     padding: 0 60px 0 60px;
 }
-
+/* Major guide 제목*/
 #Main .Major-title{
     background-color: white;
     font-size: 50px;
@@ -19,7 +19,7 @@
     border-left: 5px solid #482070 ;
     padding-left: 1%;
 }
-
+/*인트로에서 연계전공 설명*/
 #Main .Major-intro{
     background-color: rgb(224, 224, 224);
     font-size: 20px;
@@ -42,7 +42,7 @@
     margin-left: 20px;
     height: 200px;
 }
-
+/*목차*/
 #Main .Major-content{
     background-color: white;
     font-size: 35px;
@@ -82,6 +82,7 @@
     color: gray;
 }
 
+/* 1. 기본정보*/
 #Main .Major-B{
     background-color: white;
     font-size: 30px;
@@ -89,7 +90,7 @@
     margin-top: 10%;
     border-top: 3px solid #ab90bf;
 }
-
+/*2. 진로 및 취업분야*/
 #Main .Major-C{
     background-color: white;
     font-size: 30px;
@@ -108,7 +109,7 @@
     text-decoration: none;
     color: #eee0f9;
 }
-
+/*3. 졸업요건*/
 #Main .Major-G{
     background-color: white;
     font-size: 30px;
@@ -123,7 +124,7 @@
     background-color: aliceblue;
     margin: 2% 0 1% 0;
 }
-
+/*4. 학업이수*/
 #Main .Major-S{
     background-color: white;
     font-size: 30px;

@@ -39,12 +39,37 @@
 }
 
 /*내용*/
+#c1{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+#c2{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+#c3{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+#c4{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3% 0 0 1%;
+}
+
 #Main .Intro-contentline{
     background-color: white;
     margin-top: 10%;
     border-top: 3px solid #ab90bf;
 }
-.document{
+#Main .document{
     background-color: white;
     font-size: 30px;
     font-weight: bold;
@@ -85,6 +110,23 @@
     margin-top: 3%;
     color: black;
 }
+.doc-text4{
+    background-color: white;
+    font-size: 18px;
+    font-weight: normal;
+    white-space:nowrap;
+    margin-left: 20px;
+    margin-top: 10%;
+    color: black;
+}
+/* .doc-text5{
+    background-color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 10%;
+    color: black;
+} */
 .doc-box{
     background-color: #e7dced;
     width: 735px;
@@ -99,19 +141,28 @@
     font-size: 20px;
     font-weight: bold;
     color: #000000;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 5% 2% 5%;
     padding: 2% 5% 2% 5%;
     border-radius: 10px;
 }
-.doc2-box{
-    background-color: #fff6dd;
+.doc2y-box{
+    background-color: #ffffff;
+    border: 2px solid #ab90bf;
     font-size: 20px;
-    font-weight: bold;
     color: #000000;
-    margin: 5% 40% 5% 5%;
+    margin: 5% 1% 2% 5%; /*위, 오른쪽, 아래, 왼쪽 박스와의 간격  */
+    padding: 2% 2% 2% 2%; /*위, 오른쪽, 아래, 왼쪽 글자와의 간격격 */
+    border-radius: 10px;  
+}
+
+.doc2g-box{
+    background-color: #ffffff;
+    border: 2px solid #ab90bf;
+    font-size: 20px;
+    color: #000000;
+    margin: 5% 5% 2% 1%;
     padding: 2% 2% 2% 2%;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 .doc3-box{
     background-color: #ffffff;
@@ -122,7 +173,121 @@
     padding: 0% 0% 0% 0%;
     border-radius: 20px;
 }
-.box{
+
+.doc4p-box{
+    background-color:#e7dced;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 20px;
+    margin: 5% 1% 2% 1%;
+    padding: 2% 2% 2% 2%;
+}
+.doc4pl-box{
+    background-color:#ffffff;
+    border: 2px solid #e7dced;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 20px;
+    margin: 5% 1% 2% 1%;
+    padding: 2% 2% 2% 2%;
+}
+.doc4p-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 3%;
+    color: black;
+}
+
+.doc4p-box a:hover{
+    color:#482070;
+    text-decoration: underline;
+    transition: 0.1s ease-out;
+}
+.doc4pl-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 3%;
+    color: black;
+}
+
+.doc4pl-box a:hover{
+    color:#482070;
+    text-decoration: underline;
+    transition: 0.1s ease-out;
+}
+.seong-box{
+    background-color:#ffffff;
+    border: 3px solid #e6e2b6;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10px;
+    margin: 2% 1% 2% 1%;
+    padding: 2% 8% 2% 8%;
+}
+.eun-box{
+    background-color:#ffffff;
+    border: 3px solid #c8debc;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10px;
+    margin: 2% 1% 2% 1%;
+    padding: 2% 8% 2% 8%;
+}
+.jin-box{
+    background-color:#ffffff;
+    border: 3px solid #dabdbd;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10px;
+    margin: 2% 1% 2% 1%;
+    padding: 2% 8% 2% 8%;
+}
+.new-box{
+    background-color:#ffffff;
+    border: 3px solid #decfe6;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10px;
+    margin: 2% 1% 2% 1%;
+    padding: 2% 8% 2% 8%;
+}
+.yellow-text{
+    background-color: #e6e2b6;
+    font-size: 15px;
+    color:#000000;
+    white-space:nowrap;
+    border-radius: 5px;
+    margin: 10% 1% 5% 1%;
+    padding: 2% 2% 2% 2%;
+}
+.grin-text{
+    background-color: #c8debc;
+    font-size: 15px;
+    color:#000000;
+    white-space:nowrap;
+    border-radius: 5px;
+    margin: 10% 1% 5% 1%;
+    padding: 2% 2% 2% 2%;
+}
+.red-text{
+    background-color: #dabdbd;
+    font-size: 15px;
+    color:#000000;
+    white-space:nowrap;
+    border-radius: 5px;
+    margin: 10% 1% 5% 1%;
+    padding: 2% 2% 2% 2%;
+}
+.flex-box{
     display: flex;
+    justify-content: center;
+}
+
+.grid-box{
+    display: grid;
     justify-content: center;
 }

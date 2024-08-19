@@ -1,0 +1,176 @@
+#Main{
+    background-color: white;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Main .Career-title{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    color: #482070;
+    border-left: 5px solid #482070 ;
+    width: 90%;
+}
+
+#Main .Career-intro{
+    background-color: #ffffff;
+    width: 65%;
+    margin: 10% 0 10% 0;
+}
+
+#Main .Career-intro img{
+    width: 100%;
+}
+
+#Main .COM-intro img{
+    width: 20px;
+    height: 20px;
+}
+
+#Main .Career-content{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    width: 90%;
+    margin: 1% 0 0 1%;
+}
+
+#Main .Career-content a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+#Main .Career-content a:hover{
+    color: #ab90bf;
+}
+
+
+.text{
+    background-color: white;
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+    text-align: center;
+}
+
+#Career1{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 3px solid #ab90bf;
+    margin-bottom: 3%;
+}
+
+#Career2{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 3px solid #ab90bf;
+    margin-bottom: 3%;
+}
+
+
+
+#Main .Career1{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+
+
+#Main .Career1 .box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgrey;
+    margin: 1%;
+    padding: 1%;
+    text-align: end;
+    width: 100%;
+}
+
+
+#Main .Career1 .box .text{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: start;
+    font-size: 13px;
+    color: gray;
+    border-radius: 10px;
+    border: 1px solid #ab90bf;
+    box-shadow: 5px 5px 5px #ab90bf;
+    padding: 10px;
+    margin-left: 1%;
+    text-shadow: none;
+}
+
+.t-t{
+    padding: 5px 0 0 5px;
+    font-weight: bold;
+}
+
+#Main .Career2{
+    background: #ffffff;
+    width: 90%;
+    text-align: center;
+}
+
+#Main .Career2 img{
+    width: 800px;
+    padding: 100px;
+}
+
+.title{
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+#Main .Career2 .box{
+    width: 90%;
+    background: #ffffff;
+    display: flex;
+    margin: 5%;
+}
+
+#Main .Career2 .box img{
+    padding: 10px;
+    width: 100px;
+
+}
+    
+#Main .Career2 .box .text{
+    background: #ffffff;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #ab90bf;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    width: 90%;
+    color: #000000;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#Main .Career2 .box .text .t-t{
+    font-size: 10px;
+    font-weight: normal;
+
+}

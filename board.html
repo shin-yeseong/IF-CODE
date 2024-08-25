@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF-CODE : Algorithm Study </title>
+    <link rel="stylesheet" href="board.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  <section id="main">
+    <div id="header"> 
+        <div class="left"> 
+          <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <div class="sidebar">
+              <div class="sidebar-content">
+                <h2>MENU</h2>
+                <ul>
+                  <li><a href="introduction.html">Introduction</a></li>
+                  <li><a href="majorguide.html">Major Guide</a></li>
+                  <li><a href="#algorithm">Algorithm Study</a></li>
+                  <li><a href="#competitions">Competitions</a></li>
+                  <li><a href="careerpath.html">Career Path</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+ 
+        <div class="center">
+          <a href="home.html">
+          <img src = "img/if-code-name.png" style="width: 150px; height: 45px"/>
+        </a>
+        </div>
+
+        <div class="right">
+          <div class="box">
+            <div class="sign-box">
+              <a href="signin.html" class="s-i">SIGN-IN</a>
+              <p>|</p>
+              <a href="#회원가입화면링크" class="s-u">SIGN-UP</a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="Main-top">
+    </div>
+
+    <div id="Main">
+      <div class="Study-title">
+        Algorithm Study :
+      </div>
+    </div>
+
+    <table class="table">
+        <tr><td colspan="2"><h2>게시판</h2></td></tr>
+        <tr class="header">
+            <td class="num">번호</td>
+            <td class="title">제목</td>
+            <td>작성자</td>
+            <td>작성날짜</td>
+        </tr>
+        <script>
+            var i, day = 20;
+            for (i = 10; i > 0; i--) {
+                document.write("<tr class='body'>");
+                document.write("<td>" + i +"</td>");
+                document.write("<td class='title'>제목입니다.</td>"); 
+                document.write("<td>작성자</td>"); 
+                  document.write("<td>24-01-" + day-- + "</td>");
+                document.write("</tr>");
+            }
+           </script>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td><button onclick="location.href='boardwrite.html'">글쓰기</button></td>
+        </tr>
+    </table>
+
+    <div id="bottom-info">
+      <div class="left">
+        <img src="웹사이트 로고 이미지">
+        <div class="developer">
+          <h3>DEVELOPER</h3>
+          <p>19 신예성</p>
+          <p>23 유시은</p>
+          <p>23 이예진</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="box">
+          <div class="s-b">
+            <a href="https://education.dongguk.edu/main" class="re">공식홈페이지</a>
+            <a href="https://www.instagram.com/dongguk._.education?igsh=MXBwbHUxY3hsMjFkbw==" class="re">공식SNS</a>
+          </div>
+          <div class="site">관련사이트</div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+    
+</body>
+</html>

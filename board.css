@@ -20,8 +20,8 @@
 }
 
 table {
-    margin: auto;
-    width: 700px;
+    margin-top: 5%;
+    width: 1000px;
     border-radius: 5px;
     border-collapse: collapse;
     border-top: none;

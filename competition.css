@@ -1,0 +1,119 @@
+#Main-top{
+    background-color: white;
+    background-size: cover;
+    height: 50px;
+}
+
+#Main{
+    margin-top: 10%;
+    background-color: white;
+    padding: 0 60px 0 60px;
+}
+
+#Main .Com-title{
+    background-color: white;
+    font-size: 50px;
+    font-weight: bold;
+    color: #482070;
+    border-left: 5px solid #482070;
+    padding-left: 1%;
+}
+
+#Main .Com-button select{
+    background-color: white;
+    outline: 0;
+    font-size: 13px;
+    border: #482070 solid 2px;
+    border-radius: 5px;
+    color:#482070;
+    margin: 3% 0 0% 0;
+    padding: 4px;
+}
+
+#line{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Com-list{
+    margin: 5% 5px 5px 5px;
+    width: 30%;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    border: 3px solid #482070;
+}
+
+#Com-list a{
+    text-decoration: none;
+    color: black;
+}
+
+#Com-list .img{
+    width: 100%;
+    height: 220px;
+}
+
+#Com-list .list-bottom{
+    border-top: 1px solid #ab90bf;
+    padding: 10px;
+    background: none;
+}
+
+#Com-list .list-bottom .b-1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#Com-list .list-bottom .b-1 span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Com-list .list-bottom .b-1 button{
+    font-size: 13px;
+    width: 50PX;
+    border: #482070 solid 2px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+
+}
+
+#Com-list .list-bottom .b-2{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Com-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.Com-bottom a{
+    background-color: darkgray;
+    width: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+
+.Com-bottom a:hover{
+    background-color: #482070;
+}
+
+
+
+
+
